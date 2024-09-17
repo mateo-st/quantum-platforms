@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "intership"
+version = "0.1.0"
+description = ""
+authors = ["Tomas Arguelles <targuelles@quantum-south.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pulser-pasqal = "0.18.0"
+pennylane = "^0.36.0"
+ipykernel = "^6.29.4"
+pulser-simulation = "^0.18.0"
+mimiqcircuits = {git = "https://github.com/qperfect-io/mimiqcircuits-python.git"}
+dimod = "^0.12.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
